@@ -1,7 +1,7 @@
 function FirstReverse(str) {
   // code goes here
 
-  newStr = str.split("").reverse().join("");
+  let newStr = str.split("").reverse().join("");
 
   return newStr;
 }
